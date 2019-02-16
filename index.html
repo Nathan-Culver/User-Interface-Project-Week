@@ -12,26 +12,30 @@
 		</head>
 		<body>
 			<div class="container">
-			<!-- Menu Content -->
-				<nav>
-					<h1>S&J</h1>
-					<div class="links">
-						<a href="index.html">Home</a>
-						<a href="#">Services</a>
-						<a href="#">Contact</a>
-					</div>
-				</nav>
 				<!-- Header Content:-->
 				<header class="header">
-					<a href="index.html"><img class="main-header-img" src="img/home/home-jumbotron.png" alt="Main Header Img"></a>
-					<h2>
-						Integrity,
-						Excellence,
-						Progress.
-					</h2>
+					<nav>
+						<div class="menuContainer">
+								<h1>S&J</h1>
+								<img class="navHamburgerImg" src="img/nav-hamburger.png" alt="Nav-Hamburger Img">
+						</div>
+						<div class="links">
+							<a href="index.html">Home</a>
+							<a href="#">Services</a>
+							<a href="#">Contact</a>
+						</div>
+					</nav>
+					<div class="headerContent">
+						<a href="index.html"><img class="mainHeader-img" src="img/home/home-jumbotron.png" alt="Main Header Img"></a>
+						<h2>
+							Integrity,<br>
+							Excellence,<br>
+							Progress.
+						</h2>
+					</div>
 				</header>
 				<!-- 	Main Content -->
-				<div class="mainContent">
+				<div class="architectContainer">
 					<section class="architects">
 						<h3>
 							Smith & Jones Architects
@@ -43,13 +47,11 @@
 							Learn More
 						</div>
 					</section>
-					<a href="#"><img class="home1Img" src="img/home/home-img-1.png" alt="Smith & Jones Architects Img"></a>
+					<img class="home1Img" src="img/home/home-img-1.png" alt="Smith & Jones Architects Img">
 				</div>
-				<div class="mainContent">
+				<div class="designContainer">
 					<section class="designs">
-						<h3>
-							Futuristic Designs
-						</h3>
+						<h3>Futuristic Designs</h3>
 						<p>
 							Et sed autem causae appareat, tempor abhorreant te mei, facer facilisis sit ea. Eu timeam vidisse consectetuer sed. Duo etiam laboramus dissentiet in, nec no errem.
 						</p>
@@ -57,75 +59,80 @@
 							View Designs
 						</div>
 					</section>
-					<a href="#"><img class="home2Img" src="img/home/home-img-2.png" alt="Futuristic Designs Img"></a>
+					<img class="home2Img" src="img/home/home-img-2.png" alt="Futuristic Designs Img">
 				</div>
-				<h3>Recent Projects</h3>
-				<section class="projects">
-					<a href="#"><img class="villasImg" src="img/home/home-villas-img.png" alt="Recent Projects Img"></a>
-					<h4>THE VILLAS</h4>
-				</section>
-				<section class="projectsContent">
-					<p>
+				<div class="projectContainer">
+					<h3>Recent Projects</h3>
+					<section class="projects">
+						<img class="villasImg" src="img/home/home-villas-img.png" alt="Recent Projects Img">
+						<h4>THE VILLAS</h4>
+					</section>
+				</div>
+				<section class="projectContent">
+					<p id="projectContent1">
 						The Villas bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution.
-					</p>
-					<p>
+					</p><br>
+					<p id="projectContent2">
 						Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
 					</p>
 				</section>
 				<section class="outskirts">
-					<a href="#"><img class="outskirtsImg" src="img/home/home-outskirts-img.png" alt="Outskirts Img"></a>
+					<img class="outskirtsImg" src="img/home/home-outskirts-img.png" alt="Outskirts Img">
 					<h4>OUTSKIRTS</h4>
 				</section>
-				<section class="outskirtsContent">
-					<p>
+				<section class="outskirtContent">
+					<p id="outskirtContent1">
 						The Outskirts are amazing to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution.
 					</p>
-					<p>
+					<br>
+					<p id="outskirtContent2">
 						Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
 					</p>
 				</section>
 				<section class="blocks">
-						<a href="#"><img class="blocksImg" src="img/home/home-the-blocks-img.png" alt="The Blocks Img"></a>
+						<img class="blocksImg" src="img/home/home-the-blocks-img.png" alt="The Blocks Img">
 						<h4>THE BLOCKS</h4>
 				</section>
-				<section class="blocksContent">
-					<p>
+				<section class="blockContent">
+					<p id="blockContent1">
 						The Blocks are amazing to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution.
 					</p>
-					<p>
+					<p id="blockContent2">
 						Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
 					</p>
 				</section>
 				<!-- FOOTER CONTENT-->
 				<footer>
 					<div class="footerContent">
-						<section class="email">
-							Interested in starting a project?  
-							Let’s talk:
-							<input>Enter email
-							We'll never share your email with anyone else.
+						<section class="footerEmail">
+							<h5>Interested in starting a project?</h5>
+							<h5>Let’s talk:</h5>
+							<input id="email" type="email" placeholder=" Enter email" pattern=".+@globex.com" size="27" required>
+							<p id="informationConfidentialityClause">We'll never share your email with anyone else.</p>
 						</section>
-						<section class="newYork">
-							New York
-							123 Lane
-							Suite 100
-							Albany, NY 12345
-							202 555 0144
-						</section>
-						<section class="florida">
-							Florida
-							Ocean Drive
-							Suite 201
-							Orlando, FL 22345
-							502 555 0144
-						</section>
-						<section class="california">
-							California
-							Mountain Street
-							Suite 105
-							San Diego, CA 22345
-							702 555 0144
-						</section>
+						<div class="addressContainer">
+							<section class="footerNewYork">
+								<h5>New York</h5>
+								<p>123 Lane</p>
+								<p>Suite 100</p>
+								<p>Albany, NY 12345</p>
+								<p>202 555 0144</p>
+							</section>
+							<section class="footerFlorida">
+								<h5>Florida</h5>
+								<p>Ocean Drive</p>
+								<p>Suite 201</p>
+								<p>Orlando, FL 22345</p>
+								<p>502 555 0144</p>
+							</section>
+							<section class="footerCalifornia">
+								<h5>California</h5>
+								<p>Mountain Street</p>
+								<p>Suite 105</p>
+								<p>San Diego, CA 22345</p>
+								<p>702 555 0144</p>
+							</section>
+						</div>
 					</div>
 					<section class="copyright">
 						Copyright © 2018 Smith and Jones

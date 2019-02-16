@@ -133,4 +133,303 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-/* Your Code Goes Here */
+* {
+  box-sizing: border-box;
+  font-family: Roboto, Arial, sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  Background: #FFFFFF;
+  Color: #222222;
+}
+h3 {
+  font-weight: Bold;
+  font-size: 2.4rem;
+  Color: #222222;
+}
+h5 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 24px;
+  Color: #FFFFFF;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+.container {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+}
+.header {
+  margin-bottom: 47px;
+}
+.header nav {
+  background: #98a4af;
+}
+.header nav .menuContainer {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  border: solid 1px black;
+  padding-left: 8%;
+  padding-right: 8%;
+  align-items: center;
+}
+.header nav .menuContainer h1 {
+  font-weight: Bold;
+  font-size: 24px;
+  Color: #FFFFFF;
+}
+.header nav .links {
+  display: none;
+}
+.header .headerContent {
+  position: relative;
+}
+.header .headerContent .mainHeader-img {
+  height: 550px;
+  width: 100%;
+}
+.header .headerContent h2 {
+  position: absolute;
+  top: 275px;
+  left: 80px;
+  font-weight: Bold;
+  font-size: 64px;
+  line-height: 75px;
+  Color: #FFFFFF;
+}
+footer {
+  Background: #828282;
+}
+.container {
+  font-family: Roboto, Arial, sans-serif;
+}
+.container .architectContainer {
+  display: flex;
+  padding-left: 8.3%;
+  padding-right: 8.3%;
+}
+.container .architectContainer .architects {
+  display: flex;
+  flex-direction: column;
+  height: 375px;
+  width: 50%;
+}
+.container .architectContainer .architects h3 {
+  padding-top: 48px;
+  margin-bottom: 22px;
+}
+.container .architectContainer .architects p {
+  margin-bottom: 28px;
+}
+.container .architectContainer .architects .btn {
+  border: solid 1px black;
+  height: 46px;
+  width: 137px;
+  text-align: center;
+  padding: 13px;
+  font-size: 1.6rem;
+}
+.container .architectContainer .home1Img {
+  height: 50%;
+  width: 50%;
+  padding-left: 18px;
+}
+.container .designContainer {
+  flex-direction: row-reverse;
+  display: flex;
+}
+.container .designContainer .designs {
+  display: flex;
+  flex-direction: column;
+  height: 375px;
+  width: 50%;
+  padding-left: 13px;
+}
+.container .designContainer .designs h3 {
+  padding-top: 40px;
+  margin-bottom: 22px;
+}
+.container .designContainer .designs p {
+  margin-bottom: 30px;
+}
+.container .designContainer .designs .btn {
+  border: solid 1px black;
+  height: 46px;
+  width: 137px;
+  text-align: center;
+  padding: 13px;
+  font-size: 1.6rem;
+}
+.container .designContainer .home2Img {
+  height: 275px;
+  width: 41.6%;
+  padding-right: 18px;
+}
+.container .projectContainer {
+  position: relative;
+  padding-left: 8.3%;
+  margin-bottom: 91px;
+}
+.container .projectContainer h3 {
+  margin-bottom: 45px;
+}
+.container .projectContainer h4 {
+  position: absolute;
+  height: 95px;
+  width: 315px;
+  left: 623px;
+  top: 243px;
+  text-align: center;
+  padding-top: 35px;
+  padding-left: 10px;
+  background: #D8D8D8;
+  font-size: 2.5rem;
+  font-family: sans-serif;
+  letter-spacing: 7px;
+}
+.container .projectContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.container .projectContent #projectContent1 {
+  width: 450px;
+  font-size: 1.8rem;
+  line-height: 1.34;
+  margin-bottom: 11px;
+}
+.container .projectContent #projectContent2 {
+  width: 450px;
+  font-size: 1.8rem;
+  line-height: 1.34;
+}
+.container .outskirts {
+  position: relative;
+  margin-bottom: 90px;
+}
+.container .outskirts .outskirtsImg {
+  padding-left: 84px;
+}
+.container .outskirts h4 {
+  position: absolute;
+  height: 95px;
+  width: 315px;
+  right: 625px;
+  top: 175px;
+  text-align: center;
+  padding-top: 35px;
+  background: #D8D8D8;
+  font-size: 2.5rem;
+  font-family: sans-serif;
+  letter-spacing: 5.8px;
+}
+.container .outskirtContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 106px;
+}
+.container .outskirtContent #outskirtContent1 {
+  width: 450px;
+  font-size: 1.8rem;
+  line-height: 1.34;
+  margin-bottom: 13px;
+}
+.container .outskirtContent #outskirtContent2 {
+  width: 450px;
+  font-size: 1.8rem;
+  line-height: 1.34;
+}
+.container .blocks {
+  position: relative;
+  margin-bottom: 85px;
+}
+.container .blocks .blocksImg {
+  padding-left: 84px;
+}
+.container .blocks h4 {
+  position: absolute;
+  height: 95px;
+  width: 315px;
+  left: 623px;
+  top: 170px;
+  text-align: center;
+  padding-top: 36px;
+  background: #D8D8D8;
+  font-size: 2.5rem;
+  font-family: sans-serif;
+  letter-spacing: 5.5px;
+}
+.container .blockContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.container .blockContent #blockContent1 {
+  width: 450px;
+  font-size: 1.8rem;
+  line-height: 1.34;
+  margin-bottom: 22px;
+}
+.container .blockContent #blockContent2 {
+  width: 450px;
+  font-size: 1.8rem;
+  line-height: 1.34;
+}
+.container footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 250px;
+}
+.container footer .footerContent {
+  display: flex;
+  justify-content: space-evenly;
+  height: 200px;
+  width: 100%;
+  padding-top: 63px;
+}
+.container footer .footerContent .footerEmail {
+  height: 130px;
+}
+.container footer .footerContent .footerEmail #email {
+  margin-top: 14px;
+  margin-bottom: 3px;
+  height: 42px;
+  width: 99%;
+  font-size: 1.6rem;
+}
+.container footer .footerContent .footerEmail #informationConfidentialityClause {
+  font-size: 1.3rem;
+}
+.container footer .footerContent p {
+  Color: #FFFFFF;
+}
+.container footer .footerContent .addressContainer {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+.container footer .footerContent .addressContainer .footerNewYork {
+  height: 120px;
+}
+.container footer .footerContent .addressContainer .footerFlorida {
+  height: 120px;
+}
+.container footer .footerContent .addressContainer .footerCalifornia {
+  height: 120px;
+}
+.container footer .copyright {
+  Color: #FFFFFF;
+  padding-top: 30px;
+  font-size: 1.2rem;
+}
