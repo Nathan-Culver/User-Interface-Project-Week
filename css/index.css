@@ -200,7 +200,7 @@ p {
   top: 275px;
   left: 80px;
   font-weight: Bold;
-  font-size: 64px;
+  font-size: 6.4rem;
   line-height: 75px;
   Color: #FFFFFF;
 }
@@ -268,7 +268,7 @@ footer {
   font-size: 1.6rem;
 }
 .container .designContainer .home2Img {
-  height: 275px;
+  height: 50%;
   width: 41.6%;
   padding-right: 18px;
 }
@@ -280,11 +280,15 @@ footer {
 .container .projectContainer h3 {
   margin-bottom: 45px;
 }
-.container .projectContainer h4 {
+.container .projectContainer .projects .villasImg {
+  height: 24.5vh;
+  width: 91%;
+}
+.container .projectContainer .projects h4 {
   position: absolute;
-  height: 95px;
-  width: 315px;
-  left: 623px;
+  height: 10.2vh;
+  width: 30.8%;
+  left: 60.8%;
   top: 243px;
   text-align: center;
   padding-top: 35px;
@@ -317,6 +321,8 @@ footer {
 }
 .container .outskirts .outskirtsImg {
   padding-left: 84px;
+  height: 24.8vh;
+  width: 91.8%;
 }
 .container .outskirts h4 {
   position: absolute;
@@ -354,12 +360,14 @@ footer {
 }
 .container .blocks .blocksImg {
   padding-left: 84px;
+  height: 24.8vh;
+  width: 91.8%;
 }
 .container .blocks h4 {
   position: absolute;
-  height: 95px;
-  width: 315px;
-  left: 623px;
+  height: 10.2vh;
+  width: 30.8%;
+  left: 60.8%;
   top: 170px;
   text-align: center;
   padding-top: 36px;
