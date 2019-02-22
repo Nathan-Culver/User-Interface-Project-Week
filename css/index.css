@@ -168,6 +168,11 @@ p {
 .header {
   margin-bottom: 47px;
 }
+@media only screen and (max-width: 338px) {
+  .header {
+    margin-bottom: 34px;
+  }
+}
 .header nav {
   background: #98a4af;
 }
@@ -179,6 +184,12 @@ p {
   padding-left: 8%;
   padding-right: 8%;
   align-items: center;
+}
+@media only screen and (max-width: 338px) {
+  .header nav .menuContainer {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 }
 .header nav .menuContainer h1 {
   font-weight: Bold;
@@ -195,7 +206,17 @@ p {
   height: 550px;
   width: 100%;
 }
-.header .headerContent h2 {
+@media only screen and (max-width: 500px) {
+  .header .headerContent .mainHeader-img {
+    height: 350px;
+  }
+}
+@media only screen and (max-width: 338px) {
+  .header .headerContent .mainHeader-img {
+    height: 210px;
+  }
+}
+.header .headerContent .h2Container {
   position: absolute;
   top: 275px;
   left: 80px;
@@ -204,8 +225,187 @@ p {
   line-height: 75px;
   Color: #FFFFFF;
 }
-footer {
+@media only screen and (max-width: 338px) {
+  .header .headerContent .h2Container #integrity {
+    height: 40px;
+  }
+}
+@media only screen and (max-width: 338px) {
+  .header .headerContent .h2Container #excellence {
+    height: 40px;
+  }
+}
+@media only screen and (max-width: 338px) {
+  .header .headerContent .h2Container #progress {
+    height: 40px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .header .headerContent .h2Container {
+    top: 45px;
+    left: 30px;
+  }
+}
+@media only screen and (max-width: 338px) {
+  .header .headerContent .h2Container {
+    top: 55px;
+    left: 5%;
+    font-size: 3.6rem;
+  }
+}
+.container footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 250px;
   Background: #828282;
+}
+@media only screen and (max-width: 500px) {
+  .container footer {
+    height: 660px;
+    padding-top: 35px;
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+}
+@media only screen and (max-width: 338px) {
+  .container footer {
+    align-items: flex-start;
+    height: 707px;
+    padding-top: 25px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+.container footer .footerContent {
+  display: flex;
+  justify-content: space-evenly;
+  height: 200px;
+  width: 100%;
+  padding-top: 63px;
+}
+@media only screen and (max-width: 500px) {
+  .container footer .footerContent {
+    flex-direction: column;
+    padding-top: 150px;
+  }
+}
+@media only screen and (max-width: 338px) {
+  .container footer .footerContent {
+    padding-top: 170px;
+  }
+}
+.container footer .footerContent .footerEmail {
+  height: 130px;
+}
+@media only screen and (max-width: 338px) {
+  .container footer .footerContent .footerEmail {
+    height: 120px;
+  }
+}
+.container footer .footerContent .footerEmail #email {
+  margin-top: 14px;
+  margin-bottom: 3px;
+  height: 42px;
+  width: 99%;
+  font-size: 1.6rem;
+  border-radius: 5px;
+}
+@media only screen and (max-width: 500px) {
+  .container footer .footerContent .footerEmail #email {
+    margin-top: 18px;
+  }
+}
+@media only screen and (max-width: 338px) {
+  .container footer .footerContent .footerEmail #email {
+    height: 49px;
+    width: 98.6%;
+    margin-top: 16px;
+  }
+}
+.container footer .footerContent .footerEmail #informationConfidentialityClause {
+  font-size: 1.3rem;
+}
+@media only screen and (max-width: 500px) {
+  .container footer .footerContent .footerEmail #informationConfidentialityClause {
+    margin-top: 10px;
+  }
+}
+.container footer .footerContent p {
+  Color: #FFFFFF;
+}
+.container footer .footerContent .addressContainer {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+@media only screen and (max-width: 500px) {
+  .container footer .footerContent .addressContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 22px;
+    padding-top: 200px;
+    height: 400px;
+  }
+}
+.container footer .footerContent .addressContainer .footerNewYork {
+  height: 120px;
+}
+@media only screen and (max-width: 500px) {
+  .container footer .footerContent .addressContainer .footerNewYork {
+    margin-bottom: 10px;
+  }
+}
+.container footer .footerContent .addressContainer .footerNewYork h5 {
+  margin-bottom: 5px;
+}
+.container footer .footerContent .addressContainer .footerNewYork p {
+  margin-bottom: 5px;
+}
+.container footer .footerContent .addressContainer .footerFlorida {
+  height: 120px;
+}
+@media only screen and (max-width: 500px) {
+  .container footer .footerContent .addressContainer .footerFlorida {
+    margin-bottom: 10px;
+    padding-top: 20px;
+  }
+}
+.container footer .footerContent .addressContainer .footerFlorida h5 {
+  margin-bottom: 5px;
+}
+.container footer .footerContent .addressContainer .footerFlorida p {
+  margin-bottom: 5px;
+}
+.container footer .footerContent .addressContainer .footerCalifornia {
+  height: 120px;
+}
+@media only screen and (max-width: 500px) {
+  .container footer .footerContent .addressContainer .footerCalifornia {
+    margin-bottom: 10px;
+    padding-top: 40px;
+  }
+}
+.container footer .footerContent .addressContainer .footerCalifornia h5 {
+  margin-bottom: 5px;
+}
+.container footer .footerContent .addressContainer .footerCalifornia p {
+  margin-bottom: 5px;
+}
+.container footer .copyright {
+  Color: #FFFFFF;
+  padding-top: 30px;
+  font-size: 1.2rem;
+}
+@media only screen and (max-width: 500px) {
+  .container footer .copyright {
+    padding-top: 410px;
+  }
+}
+@media only screen and (max-width: 338px) {
+  .container footer .copyright {
+    padding-top: 443px;
+  }
 }
 .container {
   font-family: Roboto, Arial, sans-serif;
@@ -215,18 +415,57 @@ footer {
   padding-left: 8.3%;
   padding-right: 8.3%;
 }
+@media only screen and (max-width: 500px) {
+  .container .architectContainer {
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 600px;
+    padding-left: 5.3%;
+    padding-right: 5.3%;
+  }
+}
+@media only screen and (max-width: 338px) {
+  .container .architectContainer {
+    height: 585px;
+    padding-left: 5.3%;
+    padding-right: 5.3%;
+  }
+}
 .container .architectContainer .architects {
   display: flex;
   flex-direction: column;
   height: 375px;
   width: 50%;
 }
+@media only screen and (max-width: 500px) {
+  .container .architectContainer .architects {
+    align-items: center;
+    width: 100%;
+  }
+}
 .container .architectContainer .architects h3 {
   padding-top: 48px;
   margin-bottom: 22px;
 }
+@media only screen and (max-width: 500px) {
+  .container .architectContainer .architects h3 {
+    font-size: 3.4rem;
+  }
+}
+@media only screen and (max-width: 338px) {
+  .container .architectContainer .architects h3 {
+    width: 100%;
+    font-size: 2.5rem;
+    padding-top: 28px;
+  }
+}
 .container .architectContainer .architects p {
   margin-bottom: 28px;
+}
+@media only screen and (max-width: 338px) {
+  .container .architectContainer .architects p {
+    margin-bottom: 23px;
+  }
 }
 .container .architectContainer .architects .btn {
   border: solid 1px black;
@@ -235,29 +474,84 @@ footer {
   text-align: center;
   padding: 13px;
   font-size: 1.6rem;
+  border-radius: 5px;
+}
+@media only screen and (max-width: 500px) {
+  .container .architectContainer .architects .btn {
+    width: 100%;
+  }
 }
 .container .architectContainer .home1Img {
-  height: 50%;
+  height: 280px;
   width: 50%;
   padding-left: 18px;
+}
+@media only screen and (max-width: 500px) {
+  .container .architectContainer .home1Img {
+    width: 100%;
+    padding-left: 0px;
+  }
 }
 .container .designContainer {
   flex-direction: row-reverse;
   display: flex;
+  padding-left: 8.3%;
+  padding-right: 8.3%;
+}
+@media only screen and (max-width: 500px) {
+  .container .designContainer {
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 600px;
+  }
+}
+@media only screen and (max-width: 338px) {
+  .container .designContainer {
+    height: 585px;
+    padding-left: 5.3%;
+    padding-right: 5.3%;
+  }
 }
 .container .designContainer .designs {
   display: flex;
   flex-direction: column;
   height: 375px;
   width: 50%;
-  padding-left: 13px;
+  padding-left: 6px;
+}
+@media only screen and (max-width: 500px) {
+  .container .designContainer .designs {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 338px) {
+  .container .designContainer .designs {
+    padding-left: 0px;
+  }
 }
 .container .designContainer .designs h3 {
   padding-top: 40px;
   margin-bottom: 22px;
 }
+@media only screen and (max-width: 500px) {
+  .container .designContainer .designs h3 {
+    font-size: 3.4rem;
+  }
+}
+@media only screen and (max-width: 338px) {
+  .container .designContainer .designs h3 {
+    width: 100%;
+    font-size: 2.5rem;
+    padding-top: 28px;
+  }
+}
 .container .designContainer .designs p {
   margin-bottom: 30px;
+}
+@media only screen and (max-width: 338px) {
+  .container .designContainer .designs p {
+    margin-bottom: 25px;
+  }
 }
 .container .designContainer .designs .btn {
   border: solid 1px black;
@@ -266,27 +560,67 @@ footer {
   text-align: center;
   padding: 13px;
   font-size: 1.6rem;
+  border-radius: 5px;
 }
-.container .designContainer .home2Img {
-  height: 50%;
-  width: 41.6%;
-  padding-right: 18px;
+@media only screen and (max-width: 500px) {
+  .container .designContainer .designs .btn {
+    width: 100%;
+  }
 }
-.container .projectContainer {
+.container .home2Img {
+  height: 275px;
+  width: 51.6%;
+  padding-right: 21px;
+}
+@media only screen and (max-width: 500px) {
+  .container .home2Img {
+    width: 100%;
+    padding-right: 0px;
+  }
+}
+.projectContainer {
   position: relative;
   padding-left: 8.3%;
   margin-bottom: 91px;
 }
-.container .projectContainer h3 {
+@media only screen and (max-width: 500px) {
+  .projectContainer {
+    margin-bottom: 120px;
+  }
+}
+@media only screen and (max-width: 338px) {
+  .projectContainer {
+    padding-left: 0px;
+    margin-bottom: 77px;
+  }
+}
+.projectContainer h3 {
   margin-bottom: 45px;
 }
-.container .projectContainer .projects .villasImg {
-  height: 24.5vh;
+@media only screen and (max-width: 500px) {
+  .projectContainer h3 {
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 338px) {
+  .projectContainer h3 {
+    margin-bottom: 25px;
+    padding-top: 6px;
+    padding-left: 5%;
+  }
+}
+.projectContainer .projects .villasImg {
+  height: 230px;
   width: 91%;
 }
-.container .projectContainer .projects h4 {
+@media only screen and (max-width: 338px) {
+  .projectContainer .projects .villasImg {
+    width: 100%;
+  }
+}
+.projectContainer .projects h4 {
   position: absolute;
-  height: 10.2vh;
+  height: 96px;
   width: 30.8%;
   left: 60.8%;
   top: 243px;
@@ -298,38 +632,101 @@ footer {
   font-family: sans-serif;
   letter-spacing: 7px;
 }
-.container .projectContent {
+@media only screen and (max-width: 500px) {
+  .projectContainer .projects h4 {
+    height: 10.7vh;
+    width: 80%;
+    left: 10%;
+    top: 260px;
+    padding-top: 30px;
+    font-size: 3.5rem;
+  }
+}
+@media only screen and (max-width: 338px) {
+  .projectContainer .projects h4 {
+    height: 97px;
+    width: 90%;
+    left: 5%;
+    top: 242px;
+    padding-top: 36px;
+    font-size: 2.5rem;
+  }
+}
+.projectContent {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 100px;
+  width: 50%;
+  margin: 0 auto;
 }
-.container .projectContent #projectContent1 {
-  width: 450px;
+@media only screen and (max-width: 500px) {
+  .projectContent {
+    width: 90%;
+  }
+}
+.projectContent #projectContent1 {
+  width: 85%;
   font-size: 1.8rem;
   line-height: 1.34;
   margin-bottom: 11px;
 }
-.container .projectContent #projectContent2 {
-  width: 450px;
+@media only screen and (max-width: 338px) {
+  .projectContent #projectContent1 {
+    width: 100%;
+  }
+}
+.projectContent #projectContent2 {
+  width: 85%;
   font-size: 1.8rem;
   line-height: 1.34;
 }
-.container .outskirts {
+@media only screen and (max-width: 338px) {
+  .projectContent #projectContent2 {
+    width: 100%;
+  }
+}
+.outskirts {
   position: relative;
   margin-bottom: 90px;
+  padding-top: 100px;
 }
-.container .outskirts .outskirtsImg {
+@media only screen and (max-width: 500px) {
+  .outskirts {
+    padding-top: 50px;
+    margin-bottom: 120px;
+  }
+}
+@media only screen and (max-width: 338px) {
+  .outskirts {
+    padding-top: 48px;
+    margin-bottom: 109px;
+  }
+}
+.outskirts .outskirtsImg {
   padding-left: 84px;
-  height: 24.8vh;
+  height: 231px;
   width: 91.8%;
 }
-.container .outskirts h4 {
+@media only screen and (max-width: 500px) {
+  .outskirts .outskirtsImg {
+    padding-left: 10%;
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 338px) {
+  .outskirts .outskirtsImg {
+    width: 100%;
+    height: 200px;
+    padding-left: 0px;
+  }
+}
+.outskirts h4 {
   position: absolute;
-  height: 95px;
-  width: 315px;
-  right: 625px;
-  top: 175px;
+  height: 97px;
+  width: 30.8%;
+  right: 60.8%;
+  top: 275px;
   text-align: center;
   padding-top: 35px;
   background: #D8D8D8;
@@ -337,38 +734,96 @@ footer {
   font-family: sans-serif;
   letter-spacing: 5.8px;
 }
-.container .outskirtContent {
+@media only screen and (max-width: 500px) {
+  .outskirts h4 {
+    height: 10.7vh;
+    width: 76%;
+    right: 12%;
+    top: 260px;
+    padding-top: 30px;
+    font-size: 3.5rem;
+  }
+}
+@media only screen and (max-width: 338px) {
+  .outskirts h4 {
+    height: 96px;
+    width: 90%;
+    right: 5%;
+    top: 235px;
+    padding-top: 36px;
+    font-size: 2.5rem;
+  }
+}
+.outskirtContent {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 106px;
+  width: 50%;
+  margin: 0 auto;
 }
-.container .outskirtContent #outskirtContent1 {
-  width: 450px;
+@media only screen and (max-width: 500px) {
+  .outskirtContent {
+    width: 90%;
+  }
+}
+.outskirtContent #outskirtContent1 {
+  width: 85%;
   font-size: 1.8rem;
   line-height: 1.34;
   margin-bottom: 13px;
 }
-.container .outskirtContent #outskirtContent2 {
-  width: 450px;
+@media only screen and (max-width: 338px) {
+  .outskirtContent #outskirtContent1 {
+    width: 100%;
+  }
+}
+.outskirtContent #outskirtContent2 {
+  width: 85%;
   font-size: 1.8rem;
   line-height: 1.34;
+  margin-bottom: 13px;
 }
-.container .blocks {
+@media only screen and (max-width: 338px) {
+  .outskirtContent #outskirtContent2 {
+    width: 100%;
+  }
+}
+.blocks {
   position: relative;
   margin-bottom: 85px;
+  padding-top: 89px;
 }
-.container .blocks .blocksImg {
+@media only screen and (max-width: 338px) {
+  .blocks {
+    padding-top: 32px;
+    margin-bottom: 107px;
+  }
+}
+.blocks .blocksImg {
   padding-left: 84px;
-  height: 24.8vh;
+  height: 230px;
   width: 91.8%;
 }
-.container .blocks h4 {
+@media only screen and (max-width: 500px) {
+  .blocks .blocksImg {
+    padding-left: 10%;
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 338px) {
+  .blocks .blocksImg {
+    width: 100%;
+    height: 200px;
+    padding-left: 0px;
+  }
+}
+.blocks h4 {
   position: absolute;
-  height: 10.2vh;
+  height: 97px;
   width: 30.8%;
   left: 60.8%;
-  top: 170px;
+  top: 275px;
   text-align: center;
   padding-top: 36px;
   background: #D8D8D8;
@@ -376,68 +831,60 @@ footer {
   font-family: sans-serif;
   letter-spacing: 5.5px;
 }
-.container .blockContent {
+@media only screen and (max-width: 500px) {
+  .blocks h4 {
+    height: 10.7vh;
+    width: 76%;
+    left: 12%;
+    top: 260px;
+    padding-top: 30px;
+    font-size: 3.5rem;
+  }
+}
+@media only screen and (max-width: 338px) {
+  .blocks h4 {
+    height: 97px;
+    width: 90%;
+    left: 5%;
+    top: 220px;
+    padding-top: 36px;
+    font-size: 2.5rem;
+  }
+}
+.blockContent {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 100px;
+  padding-left: 24%;
+  padding-right: 24%;
 }
-.container .blockContent #blockContent1 {
-  width: 450px;
+@media only screen and (max-width: 500px) {
+  .blockContent {
+    width: 100%;
+    padding-left: 5.3%;
+    padding-right: 5.3%;
+    margin-bottom: 80px;
+  }
+}
+.blockContent #blockContent1 {
+  width: 85%;
   font-size: 1.8rem;
   line-height: 1.34;
   margin-bottom: 22px;
 }
-.container .blockContent #blockContent2 {
-  width: 450px;
+@media only screen and (max-width: 338px) {
+  .blockContent #blockContent1 {
+    width: 100%;
+  }
+}
+.blockContent #blockContent2 {
+  width: 85%;
   font-size: 1.8rem;
   line-height: 1.34;
 }
-.container footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 250px;
-}
-.container footer .footerContent {
-  display: flex;
-  justify-content: space-evenly;
-  height: 200px;
-  width: 100%;
-  padding-top: 63px;
-}
-.container footer .footerContent .footerEmail {
-  height: 130px;
-}
-.container footer .footerContent .footerEmail #email {
-  margin-top: 14px;
-  margin-bottom: 3px;
-  height: 42px;
-  width: 99%;
-  font-size: 1.6rem;
-}
-.container footer .footerContent .footerEmail #informationConfidentialityClause {
-  font-size: 1.3rem;
-}
-.container footer .footerContent p {
-  Color: #FFFFFF;
-}
-.container footer .footerContent .addressContainer {
-  display: flex;
-  width: 50%;
-  justify-content: space-around;
-}
-.container footer .footerContent .addressContainer .footerNewYork {
-  height: 120px;
-}
-.container footer .footerContent .addressContainer .footerFlorida {
-  height: 120px;
-}
-.container footer .footerContent .addressContainer .footerCalifornia {
-  height: 120px;
-}
-.container footer .copyright {
-  Color: #FFFFFF;
-  padding-top: 30px;
-  font-size: 1.2rem;
+@media only screen and (max-width: 338px) {
+  .blockContent #blockContent2 {
+    width: 100%;
+  }
 }
