@@ -1015,3 +1015,53 @@ p {
 .container .header nav .menuContainer .dropdown .dropdown-hidden {
   display: none;
 }
+.container .mainContainer .services {
+  height: 117px;
+  width: 100%;
+}
+.container .mainContainer .section .tabs .tab-links {
+  display: flex;
+  justify-content: space-between;
+}
+.container .mainContainer .section .tabs .tab-links .tab-link {
+  border: solid 1px black;
+  height: 49px;
+  width: 186px;
+  text-align: center;
+  padding-top: 9px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.container .mainContainer .section .tabs p {
+  border: solid 1px black;
+  height: 49px;
+  width: 186px;
+  text-align: center;
+  padding-top: 9px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.container .mainContainer .section .tabs .construction {
+  color: white;
+  background-color: cadetblue;
+}
+.container .mainContainer .section .constructionTab {
+  margin-top: 53px;
+  margin-bottom: 90px;
+}
+.container .mainContainer .section .constructionTab h2 {
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+.container .mainContainer .section .constructionTab .contentContainer {
+  display: flex;
+  margin-top: 14px;
+}
+.container .mainContainer .section .constructionTab .contentContainer .constructionContent p {
+  height: 130px;
+  font-size: 1.65rem;
+  line-height: 1.63;
+}
+.container .mainContainer .section .constructionTab .contentContainer .constructionContent #constructionContent2 {
+  margin-top: 26px;
+}
