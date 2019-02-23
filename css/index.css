@@ -216,6 +216,20 @@ p {
     height: 210px;
   }
 }
+.header .headerContent .servicesHeader-img {
+  height: 200px;
+  width: 100%;
+}
+@media only screen and (max-width: 500px) {
+  .header .headerContent .servicesHeader-img {
+    height: 350px;
+  }
+}
+@media only screen and (max-width: 338px) {
+  .header .headerContent .servicesHeader-img {
+    height: 210px;
+  }
+}
 .header .headerContent .h2Container {
   position: absolute;
   top: 275px;
@@ -251,6 +265,20 @@ p {
     top: 55px;
     left: 5%;
     font-size: 3.6rem;
+  }
+}
+.header .headerContent .servicesContainer {
+  position: absolute;
+  top: 107px;
+  left: 85px;
+  font-weight: Bold;
+  font-size: 6.4rem;
+  line-height: 75px;
+  Color: #FFFFFF;
+}
+@media only screen and (max-width: 338px) {
+  .header .headerContent .servicesContainer #Services {
+    height: 40px;
   }
 }
 .container footer {
@@ -887,4 +915,53 @@ p {
   .blockContent #blockContent2 {
     width: 100%;
   }
+}
+.container {
+  font-family: Roboto, Arial, sans-serif;
+}
+.container .mainContainer {
+  padding-top: 4px;
+  padding-left: 8.3%;
+  padding-right: 8.3%;
+}
+.container .mainContainer .services {
+  height: 117px;
+  width: 100%;
+}
+.container .mainContainer .tabs {
+  display: flex;
+  justify-content: space-between;
+}
+.container .mainContainer .tabs p {
+  border: solid 1px black;
+  height: 49px;
+  width: 186px;
+  text-align: center;
+  padding-top: 9px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.container .mainContainer .tabs .construction {
+  color: white;
+  background-color: cadetblue;
+}
+.container .mainContainer .constructionTab {
+  margin-top: 53px;
+  margin-bottom: 90px;
+}
+.container .mainContainer .constructionTab h2 {
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+.container .mainContainer .constructionTab .contentContainer {
+  display: flex;
+  margin-top: 14px;
+}
+.container .mainContainer .constructionTab .contentContainer .constructionContent p {
+  height: 130px;
+  font-size: 1.65rem;
+  line-height: 1.63;
+}
+.container .mainContainer .constructionTab .contentContainer .constructionContent #constructionContent2 {
+  margin-top: 26px;
 }
