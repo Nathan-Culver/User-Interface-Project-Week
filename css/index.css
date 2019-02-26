@@ -925,43 +925,6 @@ p {
   height: 117px;
   width: 100%;
 }
-.container .mainContainer .tabs {
-  display: flex;
-  justify-content: space-between;
-}
-.container .mainContainer .tabs p {
-  border: solid 1px black;
-  height: 49px;
-  width: 186px;
-  text-align: center;
-  padding-top: 9px;
-  font-size: 2rem;
-  font-weight: bold;
-}
-.container .mainContainer .tabs .construction {
-  color: white;
-  background-color: cadetblue;
-}
-.container .mainContainer .constructionTab {
-  margin-top: 53px;
-  margin-bottom: 90px;
-}
-.container .mainContainer .constructionTab h2 {
-  font-size: 2.4rem;
-  font-weight: bold;
-}
-.container .mainContainer .constructionTab .contentContainer {
-  display: flex;
-  margin-top: 14px;
-}
-.container .mainContainer .constructionTab .contentContainer .constructionContent p {
-  height: 130px;
-  font-size: 1.65rem;
-  line-height: 1.63;
-}
-.container .mainContainer .constructionTab .contentContainer .constructionContent #constructionContent2 {
-  margin-top: 26px;
-}
 .container .header nav .menuContainer .h1-z-index-style {
   font-weight: Bold;
   font-size: 24px;
@@ -1015,53 +978,76 @@ p {
 .container .header nav .menuContainer .dropdown .dropdown-hidden {
   display: none;
 }
-.container .mainContainer .services {
-  height: 117px;
+.container .mainContainer .section .tabs {
   width: 100%;
 }
-.container .mainContainer .section .tabs .tab-links {
+.container .mainContainer .section .tabs .tabs-links {
   display: flex;
   justify-content: space-between;
 }
-.container .mainContainer .section .tabs .tab-links .tab-link {
+.container .mainContainer .section .tabs .tabs-links .tabs-link {
   border: solid 1px black;
   height: 49px;
   width: 186px;
   text-align: center;
-  padding-top: 9px;
+  padding-top: 13px;
   font-size: 2rem;
   font-weight: bold;
 }
-.container .mainContainer .section .tabs p {
-  border: solid 1px black;
-  height: 49px;
-  width: 186px;
-  text-align: center;
-  padding-top: 9px;
-  font-size: 2rem;
-  font-weight: bold;
+.container .mainContainer .section .tabs .tabs-items {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
 }
-.container .mainContainer .section .tabs .construction {
-  color: white;
-  background-color: cadetblue;
+.container .mainContainer .section .tabs .tabs-items .tabs-item-selected {
+  display: block;
 }
-.container .mainContainer .section .constructionTab {
+.container .mainContainer .section .tabs .tabs-items .tabs-item {
+  display: none;
+  width: 75%;
+}
+.container .mainContainer .section .tabs .tabs-items .tabs-item .pre-constructionTab {
   margin-top: 53px;
   margin-bottom: 90px;
 }
-.container .mainContainer .section .constructionTab h2 {
+.container .mainContainer .section .tabs .tabs-items .tabs-item .pre-constructionTab h2 {
   font-size: 2.4rem;
   font-weight: bold;
 }
-.container .mainContainer .section .constructionTab .contentContainer {
+.container .mainContainer .section .tabs .tabs-items .tabs-item .pre-constructionTab .pre-constructionContainer {
   display: flex;
   margin-top: 14px;
 }
-.container .mainContainer .section .constructionTab .contentContainer .constructionContent p {
+.container .mainContainer .section .tabs .tabs-items .tabs-item .pre-constructionTab .pre-constructionContainer .pre-constructionContent p {
   height: 130px;
   font-size: 1.65rem;
   line-height: 1.63;
 }
-.container .mainContainer .section .constructionTab .contentContainer .constructionContent #constructionContent2 {
+.container .mainContainer .section .tabs .tabs-items .tabs-item .pre-constructionTab .pre-constructionContainer .pre-constructionContent #pre-constructionContent2 {
+  margin-top: 26px;
+}
+.container .mainContainer .section .tabs .tabs-items .tabs-item {
+  display: none;
+  width: 75%;
+}
+.container .mainContainer .section .tabs .tabs-items .tabs-item .constructionTab {
+  margin-top: 53px;
+  margin-bottom: 90px;
+}
+.container .mainContainer .section .tabs .tabs-items .tabs-item .constructionTab h2 {
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+.container .mainContainer .section .tabs .tabs-items .tabs-item .constructionTab .constructionContainer {
+  display: flex;
+  margin-top: 14px;
+}
+.container .mainContainer .section .tabs .tabs-items .tabs-item .constructionTab .constructionContainer .constructionContent p {
+  height: 130px;
+  font-size: 1.65rem;
+  line-height: 1.63;
+}
+.container .mainContainer .section .tabs .tabs-items .tabs-item .constructionTab .constructionContainer .constructionContent #constructionContent2 {
   margin-top: 26px;
 }

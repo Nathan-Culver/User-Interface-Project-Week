@@ -1,61 +1,83 @@
 .container {
   .mainContainer {
-    .services {
-      height: 117px;
-      width: 100%;
-    }
     .section {
       .tabs {
-        .tab-links {
+        width: 100%;
+        .tabs-links {
           display: flex;
           justify-content: space-between;
-          .tab-link {
+          .tabs-link {
             border: solid 1px black;
             height: 49px;
             width: 186px;
             text-align: center;
-            padding-top: 9px;
+            padding-top: 13px;
             font-size: 2rem;
             font-weight: bold;
           }
-        }
-
-        p {
-          border: solid 1px black;
-          height: 49px;
-          width: 186px;
-          text-align: center;
-          padding-top: 9px;
-          font-size: 2rem;
-          font-weight: bold;
-        }
-        .construction {
-          color: white;
-          background-color: cadetblue;
-        }
       }
-      .constructionTab {
-        margin-top: 53px;
-        margin-bottom: 90px;
-        h2 {
-          font-size: 2.4rem;
-          font-weight: bold;
+      .tabs-items {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        .tabs-item-selected {
+          display: block;
         }
-        .contentContainer {
-          display: flex;
-          margin-top: 14px;
-          .constructionContent {
-            p {
-              height: 130px;
-              font-size: 1.65rem;
-              line-height: 1.63;
+        .tabs-item {
+          display: none; 
+          width: 75%;
+          .pre-constructionTab {
+            margin-top: 53px;
+            margin-bottom: 90px;
+            h2 {
+              font-size: 2.4rem;
+              font-weight: bold;
             }
-            #constructionContent2 {
-              margin-top: 26px;
+            .pre-constructionContainer {
+              display: flex;
+              margin-top: 14px;
+              .pre-constructionContent {
+                p {
+                  height: 130px;
+                  font-size: 1.65rem;
+                  line-height: 1.63;
+                }
+                #pre-constructionContent2 {
+                  margin-top: 26px;
+                }
+              }
             }
           }
         }
+        .tabs-item {
+          display: none; 
+          width: 75%;
+          .constructionTab {
+            margin-top: 53px;
+            margin-bottom: 90px;
+            h2 {
+              font-size: 2.4rem;
+              font-weight: bold;
+            }
+            .constructionContainer {
+              display: flex;
+              margin-top: 14px;
+              .constructionContent {
+                p {
+                  height: 130px;
+                  font-size: 1.65rem;
+                  line-height: 1.63;
+                }
+                #constructionContent2 {
+                  margin-top: 26px;
+                }
+              }
+              }
+          }
+        }
+      }
       }
     }
-    }
+  }
 }

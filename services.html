@@ -10,9 +10,9 @@
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 </head>
-
 <body>
 	<script defer="defer" src="js/tabs.js"></script>
+	<script defer="defer" src="js/dropdown.js"></script>
 	<div class="container">
 			<!-- Header Content:-->
 			<header class="header">
@@ -22,7 +22,7 @@
 									<!-- Menu Dropdown -->
 									<div class="dropdown">
 										<div class="dropdown-img" id="dropdown-img-z-index">
-											<img class="hamburger" src="img/nav-hamburger.png" alt="Nav-Hamburger Img">
+												<img class="hamburger" id="menuImg" src="img/nav-hamburger.png" alt="Nav-Hamburger Img" onclick="toggleMenu();">
 										</div>
 										<div class="dropdown-content dropdown-hidden">
 											<div class="linksContainer">
@@ -51,32 +51,82 @@
 				<!-- *** NOTE *** Tab Navigator Content: I used the same text for each tab to make it easy, Note that the images and text do change on click but you can just use the same text for each tab element.  All the images should be in the img folder.
 				-->
 				<div class="section">
-						<div class="tabs">
-							<div class="tabs-links">
-								<div class="tabs-link tabs-link-selected" class="pre-construction" data-tab="1">Pre-Construction</div>
-								<div class="tabs-link" class="construction" data-tab="2">Construction</div>
-								<div class="tabs-link" class="designBuild" data-tab="3">Design Build</div>
-								<div class="tabs-link" class="sustainability" data-tab="4">Sustainability</div>
-							</div>
-							<div class="tabs-items">
-								<div class="tabs-item tabs-item-selected" data-tab="1">
-									<section class="constructionTab">
-										<h2>Construction</h2>
-											<div class="contentContainer">
-												<section class="constructionContent">
-													<p id="constructionContent1">
-														Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.
-													</p>
-													<p id="constructionContent2">
-														Phosfluorescently engage worldwide methodologies with web-enabled technology. Interactively coordinate proactive e-commerce via process-centric "outside the box" thinking. Completely pursue scalable customer service through sustainable potentialities.
-													</p>
-												</section>
-												<img class="constructionImg" src="img/services/services-tab-construction-img.png" alt="Construction Img">
-											</div>
+					<div class="tabs">
+						<div class="tabs-links">
+							<div class="tabs-link tabs-link-selected" data-tab="1">Pre-Construction</div>
+							<div class="tabs-link" data-tab="2">Construction</div>
+							<div class="tabs-link" data-tab="3">Design Build</div>
+							<div class="tabs-link" data-tab="4">Sustainability</div>
+						</div>
+
+						<div class="tabs-items">
+							<div class="tabs-item tabs-item-selected" data-tab="1">
+								<section class="pre-constructionTab">
+									<h2>Pre-Construction</h2>
+									<div class="pre-constructionContainer">
+										<section class="pre-constructionContent">
+											<p id="pre-constructionContent1">
+												Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.
+											</p>
+											<p id="pre-constructionContent2">
+												Phosfluorescently engage worldwide methodologies with web-enabled technology. Interactively coordinate proactive e-commerce via process-centric "outside the box" thinking. Completely pursue scalable customer service through sustainable potentialities.
+											</p>
 										</section>
-								</div>
+										<img class="pre-constructionImg" src="img/services/services-tab-pre-construction-img.png" alt="pre-Construction Img">
+									</div>
+								</section>
 							</div>
-						</div>			
+							<div class="tabs-item" data-tab="2">
+								<section class="constructionTab">
+									<h2>Pre-Construction</h2>
+									<div class="constructionContainer">
+										<section class="constructionContent">
+											<p id="constructionContent1">
+												Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.
+											</p>
+											<p id="constructionContent2">
+												Phosfluorescently engage worldwide methodologies with web-enabled technology. Interactively coordinate proactive e-commerce via process-centric "outside the box" thinking. Completely pursue scalable customer service through sustainable potentialities.
+											</p>
+										</section>
+										<img class="constructionImg" src="img/services/services-tab-construction-img.png" alt="Construction Img">
+									</div>
+								</section>
+							</div>
+							<div class="tabs-item" data-tab="3">
+									<section class="designBuildTab">
+										<h2>Design Build</h2>
+										<div class="designBuildContainer">
+											<section class="designBuildContent">
+												<p id="designBuildContent1">
+													Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.
+												</p>
+												<p id="designBuildContent2">
+													Phosfluorescently engage worldwide methodologies with web-enabled technology. Interactively coordinate proactive e-commerce via process-centric "outside the box" thinking. Completely pursue scalable customer service through sustainable potentialities.
+												</p>
+											</section>
+											<img class="designBuildImg" src="img/services/services-tab-design-build-img.png" alt="Design Build Img">
+										</div>
+									</section>
+							</div>
+							<div class="tabs-item" data-tab="4">
+									<section class="sustainabilityTab">
+										<h2>Sustainability</h2>
+										<div class="sustainabilityContainer">
+											<section class="sustainabilityContent">
+												<p id="sustainabilityContent1">
+													Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.
+												</p>
+												<p id="sustainabilityContent2">
+													Phosfluorescently engage worldwide methodologies with web-enabled technology. Interactively coordinate proactive e-commerce via process-centric "outside the box" thinking. Completely pursue scalable customer service through sustainable potentialities.
+												</p>
+											</section>
+											<img class="sustainabilityImg" src="img/services/services-tab-sustainability-img.png" alt="sustainability Img">
+										</div>
+									</section>
+							</div>
+						</div>
+					</div>
+				</div>			
 			</div>
 			<!-- FOOTER CONTENT-->
 			<footer>
@@ -116,6 +166,6 @@
 				</section>
 			</footer>
 			<script src="js/index.js"></script>
-		</div>
+	</div>
 </body>
 </html>
