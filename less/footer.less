@@ -1,0 +1,128 @@
+.container {
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    Background: #828282;
+    @media only screen and (max-width: 500px) {
+      height: 660px;
+      padding-top: 35px;
+      padding-left: 8%;
+      padding-right: 8%;
+    }
+    @media only screen and (max-width: 338px) {
+      align-items: flex-start;
+      height: 707px;
+      padding-top: 25px;
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+    .footerContent {
+      display: flex;
+      justify-content: space-evenly;
+      height: 200px;
+      width: 100%;
+      padding-top: 63px;
+      @media only screen and (max-width: 500px) {
+        flex-direction: column;
+        padding-top: 150px;
+      }
+      @media only screen and (max-width: 338px) {
+        padding-top: 170px;
+      }
+      .footerEmail {
+        height: 130px;
+        @media only screen and (max-width: 338px) {
+          height: 120px;
+        }
+        #email {
+          margin-top: 14px;
+          margin-bottom: 3px;
+          height: 42px;
+          width: 99%;
+          font-size: 1.6rem;
+          border-radius: 5px;
+          @media only screen and (max-width: 500px) {
+            margin-top: 18px;
+          }
+          @media only screen and (max-width: 338px) {
+            height: 49px;
+            width: 98.6%;
+            margin-top: 16px;
+          }
+        }
+        #informationConfidentialityClause {
+          font-size: 1.3rem;
+          @media only screen and (max-width: 500px) {
+            margin-top: 10px;
+          }
+        }
+      }
+      p {
+        Color: #FFFFFF;
+      }
+      .addressContainer {
+        display: flex;
+        width: 50%;
+        justify-content: space-around;
+        @media only screen and (max-width: 500px) {
+          display: flex;
+          flex-direction: column;
+          margin-top: 22px;
+          padding-top: 200px;
+          height: 400px;
+        }
+        .footerNewYork {
+          height: 120px;
+          @media only screen and (max-width: 500px) {
+            margin-bottom: 10px;
+          }
+          h5 {
+            margin-bottom: 5px;
+          }
+          p {
+            margin-bottom: 5px;
+          }
+        }
+        .footerFlorida {
+          height: 120px;
+          @media only screen and (max-width: 500px) {
+            margin-bottom: 10px;
+            padding-top: 20px;
+          }
+          h5 {
+            margin-bottom: 5px;
+          }
+          p {
+            margin-bottom: 5px;
+          }
+        }
+        .footerCalifornia {
+          height: 120px;
+          @media only screen and (max-width: 500px) {
+            margin-bottom: 10px;
+            padding-top: 40px;
+          }
+          h5 {
+            margin-bottom: 5px;
+          }
+          p {
+            margin-bottom: 5px;
+          }
+        }
+      }
+    }
+    .copyright {
+      Color: #FFFFFF;
+      padding-top: 30px;
+      font-size: 1.2rem;
+      @media only screen and (max-width: 500px) {
+        padding-top: 410px;
+      }
+      @media only screen and (max-width: 338px) {
+        padding-top: 443px;
+      }
+    } 
+  }
+}

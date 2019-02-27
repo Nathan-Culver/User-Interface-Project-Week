@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
+	<meta-name="viewport" content="width=device-width, initial-scale=1"></meta-name>
 	<title>Services</title>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 	<link rel="stylesheet" href="css/index.css">
@@ -9,30 +10,159 @@
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 </head>
-
 <body>
-
-	<h1>Services</h1>
-
-<!-- Services Content 
-  Services
-  
-  Services include: completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.
--->
-
-<!-- *** NOTE *** Tab Navigator Content: I used the same text for each tab to make it easy, Note that the images and text do change on click but you can just use the same text for each tab element.  All the images should be in the img folder.
-
-  Pre-Construction
-  Construction
-  Design Build
-  Sustainability
-
-  Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.  Phosfluorescently engage worldwide methodologies with web-enabled technology. Interactively coordinate proactive e-commerce via process-centric "outside the box" thinking. Completely pursue scalable customer service through sustainable potentialities.
-
-
-
--->
-
-	<script src="js/index.js"></script>
+	<script defer="defer" src="js/tabs.js"></script>
+	<script defer="defer" src="js/dropdown.js"></script>
+	<div class="container">
+			<!-- Header Content:-->
+			<header class="header">
+					<nav>
+							<div class="menuContainer">
+									<h1 id="h1-z-index">S&J</h1>
+									<!-- Menu Dropdown -->
+									<div class="dropdown">
+										<div class="dropdown-img" id="dropdown-img-z-index">
+												<img class="hamburger" id="menuImg" src="img/nav-hamburger.png" alt="Nav-Hamburger Img" onclick="toggleMenu();">
+										</div>
+										<div class="dropdown-content dropdown-hidden">
+											<div class="linksContainer">
+												<a href="index.html" class="dropdown-link" id="home">Home</a>
+												<a href="services.html" class="dropdown-link" id="services">Services</a>
+												<a href="#" class="dropdown-link" id="contact">Contact</a>
+											</div>
+										</div>
+									</div>
+							</div>
+						</nav>
+				<div class="headerContent">
+					<img class="servicesHeader-img" src="img/services/services-jumbotron.png" alt="Services Header Img">
+					<div class="servicesContainer">
+						<h1 id="Services">Services</h1>
+					</div>
+				</div>
+			</header>
+			<!-- 	Main Content -->
+			<div class="mainContainer">
+				<section class="services">
+					<p>
+						Services include: completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.
+					</p>
+				</section>
+				<div class="section">
+					<div class="tabs">
+						<div class="tabs-links">
+							<div class="tabs-link tabs-link-selected" data-tab="1">Pre-Construction</div>
+							<div class="tabs-link" data-tab="2">Construction</div>
+							<div class="tabs-link" data-tab="3">Design Build</div>
+							<div class="tabs-link" data-tab="4">Sustainability</div>
+						</div>
+						<div class="tabs-items">
+							<div class="tabs-item tabs-item-selected" data-tab="1">
+								<section class="tab" id="pre-constructionTab">
+									<h2 class="h2" id="h2Pre-construction">Pre-Construction</h2>
+									<div class="contentContainer" id="pre-constructionContainer">
+										<section class="tabContent" id="pre-constructionContent">
+											<p class="tabContent1" id="pre-constructionContent1">
+												Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.
+											</p>
+											<p class="tabContent2" id="pre-constructionContent2">
+												Phosfluorescently engage worldwide methodologies with web-enabled technology. Interactively coordinate proactive e-commerce via process-centric "outside the box" thinking. Completely pursue scalable customer service through sustainable potentialities.
+											</p>
+										</section>
+										<img class="tabImg" id="pre-constructionImg" src="img/services/services-tab-pre-construction-img.png" alt="pre-Construction Img">
+									</div>
+								</section>
+							</div>
+							<div class="tabs-item" data-tab="2">
+								<section class="tab" id="constructionTab">
+									<h2 class="h2" id="h2Construction">Construction</h2>
+									<div class="contentContainer" id="constructionContainer">
+										<section class="tabContent" id="constructionContent">
+											<p class="tabContent1" id="constructionContent1">
+												Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.
+											</p>
+											<p class="tabContent2" id="constructionContent2">
+												Phosfluorescently engage worldwide methodologies with web-enabled technology. Interactively coordinate proactive e-commerce via process-centric "outside the box" thinking. Completely pursue scalable customer service through sustainable potentialities.
+											</p>
+										</section>
+										<img class="tabImg" id="constructionImg" src="img/services/services-tab-construction-img.png" alt="Construction Img">
+									</div>
+								</section>
+							</div>
+							<div class="tabs-item" data-tab="3">
+									<section class="tab" id="designBuildTab">
+										<h2 class="h2" id="designBuildTab">Design Build</h2>
+										<div class="contentContainer" id="designBuildContainer">
+											<section class="tabContent" id="designBuildContent">
+												<p class="" id="designBuildContent1">
+													Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.
+												</p>
+												<p class="" id="designBuildContent2">
+													Phosfluorescently engage worldwide methodologies with web-enabled technology. Interactively coordinate proactive e-commerce via process-centric "outside the box" thinking. Completely pursue scalable customer service through sustainable potentialities.
+												</p>
+											</section>
+											<img class="tabImg" id="designBuildImg" src="img/services/services-tab-design-build-img.png" alt="Design Build Img">
+										</div>
+									</section>
+							</div>
+							<div class="tabs-item" data-tab="4">
+									<section class="tab" id="sustainabilityTab">
+										<h2 class="h2" id="sustainabilityTab">Sustainability</h2>
+										<div class="contentContainer" id="sustainabilityContainer">
+											<section class="tabContent" id="sustainabilityContent">
+												<p class="tabContent1" id="sustainabilityContent1">
+													Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.
+												</p>
+												<p class="tabContent2" id="sustainabilityContent2">
+													Phosfluorescently engage worldwide methodologies with web-enabled technology. Interactively coordinate proactive e-commerce via process-centric "outside the box" thinking. Completely pursue scalable customer service through sustainable potentialities.
+												</p>
+											</section>
+											<img class="tabImg" id="sustainabilityImg" src="img/services/services-tab-sustainability-img.png" alt="sustainability Img">
+										</div>
+									</section>
+							</div>
+						</div>
+					</div>
+				</div>			
+			</div>
+			<!-- FOOTER CONTENT-->
+			<footer>
+				<div class="footerContent">
+					<section class="footerEmail">
+						<h5>Interested in starting a project?</h5>
+						<h5>Let’s talk:</h5>
+						<input id="email" type="email" placeholder=" Enter email" pattern=".+@globex.com" size="27" required>
+						<p id="informationConfidentialityClause">We'll never share your email with anyone else.</p>
+					</section>
+					<div class="addressContainer">
+						<section class="footerNewYork">
+							<h5>New York</h5>
+							<p>123 Lane</p>
+							<p>Suite 100</p>
+							<p>Albany, NY 12345</p>
+							<p>202 555 0144</p>
+						</section>
+						<section class="footerFlorida">
+							<h5>Florida</h5>
+							<p>Ocean Drive</p>
+							<p>Suite 201</p>
+							<p>Orlando, FL 22345</p>
+							<p>502 555 0144</p>
+						</section>
+						<section class="footerCalifornia">
+							<h5>California</h5>
+							<p>Mountain Street</p>
+							<p>Suite 105</p>
+							<p>San Diego, CA 22345</p>
+							<p>702 555 0144</p>
+						</section>
+					</div>
+				</div>
+				<section class="copyright">
+					Copyright © 2018 Smith and Jones
+				</section>
+			</footer>
+			<script src="js/index.js"></script>
+	</div>
 </body>
 </html>

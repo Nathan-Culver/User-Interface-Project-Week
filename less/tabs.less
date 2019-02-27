@@ -1,0 +1,60 @@
+.container {
+  .mainContainer {
+    .section {
+      .tabs {
+        width: 100%;
+        .tabs-links {
+          display: flex;
+          justify-content: space-between;
+          .tabs-link {
+            border: solid 1px black;
+            height: 49px;
+            width: 186px;
+            text-align: center;
+            padding-top: 13px;
+            font-size: 2rem;
+            font-weight: bold;
+          }
+      }
+      .tabs-items {
+        display: flex;
+        width: 100%;
+        height: 375px;
+        margin-bottom: 93px;
+        .tabs-item {
+          display: none; 
+          width: 100%;
+          .tab {
+            margin-top: 53px;
+            margin-bottom: 90px;
+            h2 {
+              font-size: 2.4rem;
+              font-weight: bold;
+            }
+            .contentContainer {
+              display: flex;
+              margin-top: 14px;
+              .tabContent {
+                p {
+                  height: 130px;
+                  font-size: 1.65rem;
+                  line-height: 1.63;
+                }
+                .tabContent2 {
+                  margin-top: 26px;
+                }
+              }
+            }
+            .tabImg {
+              height: 275px;
+            }
+          }
+        }
+        .tabs-item-selected {
+          display: block;
+        }
+      }
+      }
+    }
+  }
+}

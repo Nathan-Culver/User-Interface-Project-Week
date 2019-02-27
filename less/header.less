@@ -1,0 +1,97 @@
+.header {
+  margin-bottom: 47px;
+  @media only screen and (max-width: 338px) {
+    margin-bottom: 34px;
+  }
+  nav {
+    background: #98a4af;
+    .menuContainer {
+      display: flex;
+      justify-content: space-between;
+      height: 50px;
+      border: solid 1px black;
+      padding-left: 8%;
+      padding-right: 8%;
+      align-items: center;
+      @media only screen and (max-width: 338px) {
+        padding-left: 5%;
+        padding-right: 5%;
+      }
+      h1 {
+        font-weight: Bold;
+        font-size: 24px;
+        Color: #FFFFFF;
+      }
+    }
+  }
+  .headerContent {
+    position: relative;
+    .mainHeader-img {
+      height: 550px;
+      width: 100%;
+      @media only screen and (max-width: 500px) {
+        height: 350px;
+      }
+      @media only screen and (max-width: 338px) {
+        height: 210px;
+      }
+    }
+    .servicesHeader-img {
+      height: 200px;
+      width: 100%;
+      @media only screen and (max-width: 500px) {
+        height: 350px;
+      }
+      @media only screen and (max-width: 338px) {
+        height: 210px;
+      }
+    }
+    .h2Container {
+      position: absolute;
+      top: 275px;
+      left: 80px;
+      font-weight: Bold;
+      font-size: 6.4rem;
+      line-height: 75px;
+      Color: #FFFFFF;
+      #integrity {
+        @media only screen and (max-width: 338px) {
+          height: 40px;
+        }
+      }
+      #excellence {
+        @media only screen and (max-width: 338px) {
+          height: 40px;
+        }
+      }
+      #progress {
+        @media only screen and (max-width: 338px) {
+          height: 40px;
+        }
+      }
+      @media only screen and (max-width: 500px) {
+        top: 45px;
+        left: 30px;
+      }
+      @media only screen and (max-width: 338px) {
+        top: 55px;
+        left: 5%;
+        font-size: 3.6rem;
+      }
+    }
+    .servicesContainer {
+      position: absolute;
+      top: 107px;
+      left: 85px;
+      font-weight: Bold;
+      font-size: 6.4rem;
+      line-height: 75px;
+      Color: #FFFFFF;
+      #Services {
+        @media only screen and (max-width: 338px) {
+          height: 40px;
+        }
+      }
+    }
+  }
+}
