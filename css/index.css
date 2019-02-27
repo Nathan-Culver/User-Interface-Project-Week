@@ -995,59 +995,38 @@ p {
   font-weight: bold;
 }
 .container .mainContainer .section .tabs .tabs-items {
-  width: 100%;
-  height: 300px;
   display: flex;
-  justify-content: center;
+  width: 100%;
+  height: 375px;
+  margin-bottom: 93px;
+}
+.container .mainContainer .section .tabs .tabs-items .tabs-item {
+  display: none;
+  width: 100%;
+}
+.container .mainContainer .section .tabs .tabs-items .tabs-item .tab {
+  margin-top: 53px;
+  margin-bottom: 90px;
+}
+.container .mainContainer .section .tabs .tabs-items .tabs-item .tab h2 {
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+.container .mainContainer .section .tabs .tabs-items .tabs-item .tab .contentContainer {
+  display: flex;
+  margin-top: 14px;
+}
+.container .mainContainer .section .tabs .tabs-items .tabs-item .tab .contentContainer .tabContent p {
+  height: 130px;
+  font-size: 1.65rem;
+  line-height: 1.63;
+}
+.container .mainContainer .section .tabs .tabs-items .tabs-item .tab .contentContainer .tabContent .tabContent2 {
+  margin-top: 26px;
+}
+.container .mainContainer .section .tabs .tabs-items .tabs-item .tab .tabImg {
+  height: 275px;
 }
 .container .mainContainer .section .tabs .tabs-items .tabs-item-selected {
   display: block;
-}
-.container .mainContainer .section .tabs .tabs-items .tabs-item {
-  display: none;
-  width: 75%;
-}
-.container .mainContainer .section .tabs .tabs-items .tabs-item .pre-constructionTab {
-  margin-top: 53px;
-  margin-bottom: 90px;
-}
-.container .mainContainer .section .tabs .tabs-items .tabs-item .pre-constructionTab h2 {
-  font-size: 2.4rem;
-  font-weight: bold;
-}
-.container .mainContainer .section .tabs .tabs-items .tabs-item .pre-constructionTab .pre-constructionContainer {
-  display: flex;
-  margin-top: 14px;
-}
-.container .mainContainer .section .tabs .tabs-items .tabs-item .pre-constructionTab .pre-constructionContainer .pre-constructionContent p {
-  height: 130px;
-  font-size: 1.65rem;
-  line-height: 1.63;
-}
-.container .mainContainer .section .tabs .tabs-items .tabs-item .pre-constructionTab .pre-constructionContainer .pre-constructionContent #pre-constructionContent2 {
-  margin-top: 26px;
-}
-.container .mainContainer .section .tabs .tabs-items .tabs-item {
-  display: none;
-  width: 75%;
-}
-.container .mainContainer .section .tabs .tabs-items .tabs-item .constructionTab {
-  margin-top: 53px;
-  margin-bottom: 90px;
-}
-.container .mainContainer .section .tabs .tabs-items .tabs-item .constructionTab h2 {
-  font-size: 2.4rem;
-  font-weight: bold;
-}
-.container .mainContainer .section .tabs .tabs-items .tabs-item .constructionTab .constructionContainer {
-  display: flex;
-  margin-top: 14px;
-}
-.container .mainContainer .section .tabs .tabs-items .tabs-item .constructionTab .constructionContainer .constructionContent p {
-  height: 130px;
-  font-size: 1.65rem;
-  line-height: 1.63;
-}
-.container .mainContainer .section .tabs .tabs-items .tabs-item .constructionTab .constructionContainer .constructionContent #constructionContent2 {
-  margin-top: 26px;
 }
